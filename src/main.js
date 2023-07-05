@@ -25,6 +25,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 window.Kakao.init(process.env.VUE_APP_KAKAO_JS_LOGIN_KEY);
+Vue.config.devtools = true;
 Vue.config.productionTip = false;
 
 Vue.use(NowUiKit);
